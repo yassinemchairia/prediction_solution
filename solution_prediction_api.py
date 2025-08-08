@@ -28,13 +28,12 @@ logging.basicConfig(
 )
 
 app = Flask(__name__)
-CORS(app, resources={r"/predict_solution": {"origins": "http://localhost:4200"}})  # Allow Angular frontend
-
+CORS(app, resources={r"/predict_solution": {"origins": "http://angular_app:80"}})
 # Paramètres
-MODEL_PATH = "C:/Users/mchai/OneDrive - ESPRIT/Bureau/SolutionPrediction/data/solution_model.pkl"
-TFIDF_PATH = "C:/Users/mchai/OneDrive - ESPRIT/Bureau/SolutionPrediction/data/tfidf_vectorizer.pkl"
-ALERTES_CSV_PATH = "C:/Users/mchai/IdeaProjects/cckback/alertes.csv"
-SPRING_API_URL = "http://localhost:8087/alertes/export"
+MODEL_PATH = "./solution_model.pkl"
+TFIDF_PATH = "./tfidf_vectorizer.pkl"
+ALERTES_CSV_PATH = "./alertes.csv"
+SPRING_API_URL = "http://springboot:8087/alertes/export"
 UPDATE_INTERVAL = 300
 
 # Vérifier l'existence des fichiers
@@ -273,4 +272,5 @@ if __name__ == "__main__":
         app.run(port=5000, debug=False)
     except Exception as e:
         logging.error(f"Erreur lors du démarrage du serveur : {str(e)}")
+
         raise
