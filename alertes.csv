@@ -1,0 +1,40 @@
+idAlerte,typePanne,niveauGravite,valeurDeclenchement,typeCapteur,emplacement,description,solution,satisfaction
+81,ELECTRICITE,HIGH_CRITICAL,0.0,ELECTRICITE,Salle 2,ELECTRICITE anormal détecté: 0 00  (HIGH_CRITICAL - MANAR),Réparation complète du système électrique,4
+86,ELECTRICITE,HIGH_CRITICAL,0.0,ELECTRICITE,Salle 1,ELECTRICITE anormal détecté: 0 00  (HIGH_CRITICAL - MANOUBA),Remplacement des capteurs défectueux,3
+91,ENVIRONNEMENT,HIGH_CRITICAL,93.82,HUMIDITE,Salle 1,HUMIDITE anormal détecté: 93 82 % (HIGH_CRITICAL - MANOUBA),Contrôle de sécurité électrique,5
+93,ENVIRONNEMENT,BAS_CRITIQUE,21.92,HUMIDITE,Salle 2,HUMIDITE anormal détecté: 21 92 % (BAS_CRITIQUE - MANAR),Mise à jour du firmware des capteurs,4
+97,ENVIRONNEMENT,CRITIQUE,83.42,HUMIDITE,Salle 2,HUMIDITE anormal détecté: 83 42 % (CRITIQUE - MANAR),Remplacement des batteries de secours,3
+99,ENVIRONNEMENT,BAS,31.16,HUMIDITE,Salle 1,HUMIDITE anormal détecté: 31 16 % (BAS - MANOUBA),Vérification de l'étanchéité des installations,4
+100,ELECTRICITE,HIGH_CRITICAL,0.0,ELECTRICITE,Salle 1,ELECTRICITE anormal détecté: 0 00  (HIGH_CRITICAL - MANOUBA),Inspection générale des installations,4
+101,ELECTRICITE,HIGH_CRITICAL,0.0,ELECTRICITE,Salle 2,ELECTRICITE anormal détecté: 0 00  (HIGH_CRITICAL - MANAR),Maintenance préventive des climatiseurs,5
+102,ENVIRONNEMENT,HIGH_CRITICAL,42.13,TEMPERATURE,Salle 2,TEMPERATURE anormal détecté: 42 13 °C (HIGH_CRITICAL - MANAR),Inspection des câblages électriques,4
+103,ENVIRONNEMENT,BAS_CRITIQUE,-5.45,TEMPERATURE,Salle 1,TEMPERATURE anormal détecté: -5 45 °C (BAS_CRITIQUE - MANOUBA),Optimisation du système de contrôle,4
+105,ENVIRONNEMENT,BAS_CRITIQUE,20.06,HUMIDITE,Salle 1,HUMIDITE anormal détecté: 20 06 % (BAS_CRITIQUE - MANOUBA),Réparation d'urgence panne électrique,2
+106,ENVIRONNEMENT,CRITIQUE,42.5,TEMPERATURE,Salle 1,TEMPERATURE élevée: 42.50°C (CRITIQUE),Formation du personnel sur site,5
+107,ENVIRONNEMENT,HIGH_CRITICAL,92.3,HUMIDITE,Salle 1,HUMIDITE élevée: 92.30% (URGENT),Diagnostic complet du système,4
+108,ELECTRICITE,HIGH_CRITICAL,0.0,ELECTRICITE,Salle 1,Panne ELECTRICITE,Réparation du circuit de refroidissement,3
+109,ENVIRONNEMENT,BAS_CRITIQUE,-8.2,TEMPERATURE,Salle 2,TEMPERATURE basse: -8.20°C,Nettoyage et calibration des équipements,5
+110,ENVIRONNEMENT,BAS_CRITIQUE,22.15,HUMIDITE,Salle 2,HUMIDITE basse: 22.15%,Dépannage du système automatisé,2
+111,ENVIRONNEMENT,NORMALE,26.8,TEMPERATURE,Salle 2,TEMPERATURE anormale: 26.80°C,Remplacement des filtres à air,3
+112,ELECTRICITE,HIGH_CRITICAL,0.0,ELECTRICITE,Salle 2,Panne ELECTRICITE résolue,Nettoyage des conduits de ventilation,3
+113,ENVIRONNEMENT,CRITIQUE,88.9,HUMIDITE,Salle 2,HUMIDITE critique résolue,Ajustement des paramètres environnementaux,4
+114,ELECTRICITE,HIGH_CRITICAL,0.0,ELECTRICITE,Salle 1,Panne électrique majeure,Remplacement du tableau électrique principal,5
+115,ENVIRONNEMENT,CRITIQUE,85.75,HUMIDITE,Salle 2,HUMIDITE élevée détectée: 85.75%,Installation de déshumidificateurs supplémentaires,4
+116,ENVIRONNEMENT,BAS_CRITIQUE,-3.2,TEMPERATURE,Salle 1,TEMPERATURE basse détectée: -3.20°C,Réglage du système de chauffage,3
+117,ELECTRICITE,HIGH_CRITICAL,0.0,ELECTRICITE,Salle 2,Coupure de courant totale,Réparation du transformeur défectueux,4
+118,ENVIRONNEMENT,HIGH_CRITICAL,45.3,TEMPERATURE,Salle 1,Surchauffe critique: 45.30°C,Maintenance du système de climatisation,5
+119,ENVIRONNEMENT,BAS,28.5,TEMPERATURE,Salle 2,TEMPERATURE légèrement élevée: 28.50°C,Vérification des capteurs,2
+120,ELECTRICITE,HIGH_CRITICAL,0.0,ELECTRICITE,Salle 1,Problème de circuit électrique,Réparation des câbles endommagés,4
+121,ENVIRONNEMENT,CRITIQUE,80.15,HUMIDITE,Salle 1,HUMIDITE anormale: 80.15%,Réparation des fuites d'eau,3
+122,ENVIRONNEMENT,BAS_CRITIQUE,15.8,HUMIDITE,Salle 2,HUMIDITE très basse: 15.80%,Ajustement du système d'humidification,4
+123,ELECTRICITE,HIGH_CRITICAL,0.0,ELECTRICITE,Salle 2,Problème d'alimentation,Réplacement de l'onduleur,5
+124,ENVIRONNEMENT,HIGH_CRITICAL,47.8,TEMPERATURE,Salle 2,TEMPERATURE dangereuse: 47.80°C,Urgence climatisation,5
+125,ENVIRONNEMENT,BAS_CRITIQUE,-2.1,TEMPERATURE,Salle 1,Gel détecté: -2.10°C,Réparation du système de chauffage,4
+126,ELECTRICITE,HIGH_CRITICAL,0.0,ELECTRICITE,Salle 1,Panne secteur,Réinitialisation du disjoncteur principal,3
+127,ENVIRONNEMENT,CRITIQUE,82.3,HUMIDITE,Salle 2,HUMIDITE excessive: 82.30%,Nettoyage des conduits d'aération,4
+128,ENVIRONNEMENT,NORMALE,25.9,TEMPERATURE,Salle 1,TEMPERATURE légèrement élevée: 25.90°C,Calibration des capteurs,2
+129,ELECTRICITE,HIGH_CRITICAL,0.0,ELECTRICITE,Salle 2,Problème de mise à la terre,Réparation du circuit de terre,4
+130,ENVIRONNEMENT,BAS_CRITIQUE,18.75,HUMIDITE,Salle 1,HUMIDITE très basse: 18.75%,Maintenance du système d'humidification,3
+131,ENVIRONNEMENT,HIGH_CRITICAL,94.1,HUMIDITE,Salle 2,HUMIDITE extrême: 94.10%,Remplacement des absorbeurs d'humidité,5
+132,ELECTRICITE,HIGH_CRITICAL,0.0,ELECTRICITE,Salle 1,Court-circuit détecté,Réparation du circuit électrique,4
+133,ENVIRONNEMENT,CRITIQUE,39.8,TEMPERATURE,Salle 2,TEMPERATURE critique: 39.80°C,Maintenance d'urgence des climatiseurs,5
