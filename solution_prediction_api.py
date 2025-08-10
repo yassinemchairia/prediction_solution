@@ -28,8 +28,7 @@ logging.basicConfig(
 )
 
 app = Flask(__name__)
-CORS(app, resources={r"/predict_solution": {"origins": "http://angular_app:80"}})
-# Paramètres
+CORS(app, resources={r"/predict_solution": {"origins": ["http://angular_app:80", "http://192.168.107.129:4200"]}})# Paramètres
 MODEL_PATH = "./solution_model.pkl"
 TFIDF_PATH = "./tfidf_vectorizer.pkl"
 ALERTES_CSV_PATH = "./alertes.csv"
@@ -274,5 +273,6 @@ if __name__ == "__main__":
         logging.error(f"Erreur lors du démarrage du serveur : {str(e)}")
 
         raise
+
 
 
