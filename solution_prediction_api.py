@@ -33,7 +33,7 @@ CORS(app, resources={r"/predict_solution": {"origins": "http://angular_app:80"}}
 MODEL_PATH = "./solution_model.pkl"
 TFIDF_PATH = "./tfidf_vectorizer.pkl"
 ALERTES_CSV_PATH = "./alertes.csv"
-SPRING_API_URL = "http://springboot:8087/alertes/predict"
+SPRING_API_URL = "http://springboot:8087/alertes/export"
 UPDATE_INTERVAL = 300
 
 # Vérifier l'existence des fichiers
@@ -274,4 +274,5 @@ if __name__ == "__main__":
         logging.error(f"Erreur lors du démarrage du serveur : {str(e)}")
 
         raise
+
 
